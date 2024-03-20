@@ -29,3 +29,4 @@ def notify_execution(scenario="success", custom_message=None):
 
     except Exception as e:
         print(f"Error: {e}")
+
