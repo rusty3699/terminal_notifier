@@ -12,7 +12,7 @@ pip todecide
 
 # for DEV
 - to build and install
- python .\setup.py sdist bdist_wheel
+ 1. python .\setup.py sdist bdist_wheel
 
  pip uninstall terminal-notifier
  
