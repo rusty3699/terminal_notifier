@@ -8,7 +8,7 @@ To install Command Notifier, you can use pip:
 
 ```bash
 pip todecide
-
+```
 
 # for DEV
 - to build and install
@@ -17,3 +17,5 @@ pip todecide
  pip uninstall terminal-notifier
  
  pip install dist/terminal_notifier-0.2-py3-none-any.whl --force-reinstall
+
+ to upload on pypi ``` twine upload dist/*
