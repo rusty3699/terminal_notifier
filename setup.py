@@ -6,6 +6,8 @@ with open("README.md", "r") as f:
 
 
 setup(
+    author="Anish Tipnis",
+    description="A package for notifying users about command execution in the terminal",
     name="terminal_notifier",  # Replace with your package name
     version="0.4",  # Replace with your package version
     author="Anish Tipnis",
