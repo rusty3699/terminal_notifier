@@ -1,6 +1,7 @@
 Metadata-Version: 2.1
 Name: terminal_notifier
-Version: 0.4
+Version: 0.6
+Summary: A package for notifying users about command execution in the terminal
 Author: Anish Tipnis
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
