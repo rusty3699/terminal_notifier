@@ -11,13 +11,15 @@ pip install terminal-notifier
 ```
 
 ## Usage
-
+```
 from terminal_notifier import notify_execution
 
-notify_execution(scenario="success")  
+notify_execution(scenario="success")  ```
 
 ## Custom Messages
+```
 notify_execution(scenario="failure", custom_message="Command failed to execute!")
+```
 
 
 
