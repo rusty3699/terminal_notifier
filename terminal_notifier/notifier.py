@@ -1,3 +1,4 @@
+import pkgutil
 from plyer import notification
 from playsound import playsound
 
@@ -25,8 +26,13 @@ def notify_execution(scenario="success", custom_message=None):
             timeout=5
         )
         
+        # Get the sound file data using pkgutil
+        sound_data = pkgutil.get_data(__name__, "sound.mp3")
+        # Write the sound data to a temporary file
+        with open("sound.mp3", "wb") as f:
+            f.write(sound_data)
+        # Play the temporary sound file
         playsound("sound.mp3")
 
     except Exception as e:
         print(f"Error: {e}")
-
