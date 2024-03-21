@@ -8,6 +8,7 @@ You can install Terminal Notifier via pip:
 
 ```bash
 pip install terminal-notifier
+```
 
 ## Usage
 
