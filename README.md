@@ -14,7 +14,8 @@ pip install terminal-notifier
 ```
 from terminal_notifier import notify_execution
 
-notify_execution(scenario="success")  ```
+notify_execution(scenario="success")
+```
 
 ## Custom Messages
 ```
