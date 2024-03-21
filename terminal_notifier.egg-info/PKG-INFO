@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: terminal_notifier
-Version: 0.6
+Version: 0.7
 Summary: A package for notifying users about command execution in the terminal
 Author: Anish Tipnis
 Requires-Python: >=3.6
@@ -25,11 +25,20 @@ pip install terminal-notifier
 from terminal_notifier import notify_execution
 
 notify_execution(scenario="success")
+notify_execution(scenario="failure")
+notify_execution(scenario="user_input_required")
+notify_execution(scenario="crash")
+notify_execution(scenario="unknown")
+
+
+
+
 ```
 
 ## Custom Messages
 ```
 notify_execution(scenario="failure", custom_message="Command failed to execute!")
+notify_execution(scenario="custom", custom_message="Custom message here")
 ```
 
 
