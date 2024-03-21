@@ -1,7 +1,6 @@
 README.md
 setup.py
 terminal_notifier/__init__.py
-terminal_notifier/del.py
 terminal_notifier/notifier.py
 terminal_notifier/sound.mp3
 terminal_notifier.egg-info/PKG-INFO
