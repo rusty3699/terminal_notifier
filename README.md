@@ -9,6 +9,7 @@ You can install Terminal Notifier via pip:
 ```bash
 pip install terminal-notifier
 ```
+https://pypi.org/project/terminal-notifier/
 
 ## Usage
 ```
