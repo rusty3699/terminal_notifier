@@ -30,6 +30,8 @@ notify_execution(scenario="unknown")
 notify_execution(scenario="failure", custom_message="Command failed to execute!")
 notify_execution(scenario="custom", custom_message="Custom message here")
 ```
+---
+*Made with ❤️ Anish*
 
 
 
